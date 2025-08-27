@@ -15,15 +15,10 @@
 #include <zephyr/drivers/i2c.h>
 /* Include the header file of printk() */
 #include <zephyr/sys/printk.h>
-
-
-
+// bt 
 #define DEVICE_NAME		CONFIG_BT_DEVICE_NAME
 #define DEVICE_NAME_LEN		(sizeof(DEVICE_NAME) - 1)
 #define SENSOR_BUFF_SIZE    32
-
-
-
 
 // sens
 #define SLEEP_TIME_MS 2000
